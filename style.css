@@ -27,7 +27,6 @@ nav{
     justify-content: space-between;
     height: 150px;
     align-items: center;
-
 }
 
 .nav-menu{
@@ -50,12 +49,72 @@ nav{
     font-size: 20px;
     font-weight: 900;
     color: #333;
-    #FF9F4A
+    padding: 10px;
 }
 
 .nav-menu li a:hover{
     color: #FF9F4A;
 }
+
+/* journey section starts from here */
+
+.journey-section{
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+}
+
+.journey-first{
+    width: 70%;
+}
+
+.journey-first h1{
+    color: var(--Heading-tag-color);
+    font-size: 50px;
+    font-weight: bold;
     
+}
+
+.journey-first p{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding: 30px 50px 30px 0;
+}
+
+button{
+    background-color: #FF9F4A;
+    border: 1px solid #FF9F4A;
+    border-radius: 30px;
+}
+
+button a, i{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 10px 15px 20px;
+}
+
+button i{
+    padding: 15px 15px 15px 10px;
+}
+
+.journey-second{
+    background-image: url('images/Circle design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 500px;
+}
+
+.journey-second img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
 
 
