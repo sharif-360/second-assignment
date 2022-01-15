@@ -54,6 +54,7 @@ nav{
 
 .nav-menu li a:hover{
     color: #FF9F4A;
+    
 }
 
 /* journey section starts from here */
@@ -117,4 +118,19 @@ button i{
     margin: auto;
 }
 
+/* brands section starts from here */
+
+.brands-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 2px solid rgba(49, 47, 47, 0.096);
+    border-bottom: 2px solid rgba(49, 47, 47, 0.096);
+
+}
+
+.brands-section img{
+    width: 6%;
+}
 
